@@ -4,7 +4,7 @@
     <title>Talha Khan | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script>
-fetch("data.json")
+fetch("package.json")
 .then(response => response.json())
 .then(data => {
     document.querySelector(".hero h2").innerText = "Hello, I'm " + data.name;
