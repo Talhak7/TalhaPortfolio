@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #007BFF;
+    color: white;
+}
+
+.about, .skills {
+    padding: 30px;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background: white;
+    margin: 10px auto;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+}
