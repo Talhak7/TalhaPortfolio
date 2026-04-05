@@ -3,6 +3,15 @@
 <head>
     <title>Talha Khan | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+fetch("data.json")
+.then(response => response.json())
+.then(data => {
+    document.querySelector(".hero h2").innerText = "Hello, I'm " + data.name;
+    document.querySelector(".hero p").innerText = data.title;
+    document.querySelector(".about p").innerText = data.about;
+});
+</script>
 </head>
 <body>
 
