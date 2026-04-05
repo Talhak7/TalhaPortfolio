@@ -3,6 +3,20 @@
 <head>
     <title>Talha Khan | Skills</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+fetch("data.json")
+.then(response => response.json())
+.then(data => {
+    let skillsList = document.querySelector(".skills ul");
+    skillsList.innerHTML = "";
+
+    data.skills.forEach(skill => {
+        let li = document.createElement("li");
+        li.innerText = skill;
+        skillsList.appendChild(li);
+    });
+});
+</script>
 </head>
 <body>
 
