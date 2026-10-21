@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Talha Khan — Computer Engineering student building useful software, AI tools, and web experiences." />
+  <meta name="theme-color" content="#0b0d10" />
+  <title>Talha Khan — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Talha Khan home"><span class="brand-mark">tk.</span><span>talha khan</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#services">Services</a><a href="#experience">Journey</a>
+      <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> COMPUTER ENGINEERING · MUMBAI, INDIA</div>
+        <h1>I build things<br>for the <span class="accent">digital world.</span></h1>
+        <p class="hero-lede">Hey, I'm Talha — a developer exploring Python, AI, and the web. I enjoy turning ideas into practical, thoughtful software.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-ghost" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span>Currently learning</span><span class="mono">RAG · Backend · AI/ML</span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="terminal">
+          <div class="terminal-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>talha@workspace ~</span><span class="terminal-lock">●</span></div>
+          <div class="terminal-body">
+            <p><span class="prompt">➜</span> <span class="terminal-path">~/about</span> whoami</p>
+            <p class="terminal-output">Talha Khan</p>
+            <p><span class="prompt">➜</span> cat focus.txt</p>
+            <p class="terminal-output">build · learn · iterate</p>
+            <p><span class="prompt">➜</span> ls projects/</p>
+            <p class="terminal-output">student-predictor/ &nbsp; food-ai/</p>
+            <p class="terminal-output">rag-assistant/</p>
+            <p><span class="prompt">➜</span> <span class="cursor"></span></p>
+          </div>
+        </div>
+        <div class="floating-chip chip-top"><span>✳</span> Curious by default</div>
+        <div class="floating-chip chip-bottom"><span class="chip-pulse"></span> Building in public</div>
+      </div>
+      <a class="scroll-note mono" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap about-section" id="about">
+      <div class="section-heading reveal"><span class="section-index">01 / ABOUT</span><h2>Curiosity first.<br><span class="muted">Code follows.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-statement reveal">I'm a Computer Engineering student who likes understanding how things work — from data and machine learning to the interfaces people use every day.</p>
+        <div class="about-detail reveal"><p>My approach is simple: learn the fundamentals, build something real, and keep improving it. Right now, I'm growing my Python backend and AI skills while developing projects that solve clear problems.</p><a class="text-link" href="#contact">Have a project in mind? <span>↗</span></a></div>
+      </div>
+      <div class="stats-row reveal"><div><strong>01</strong><span>Build with purpose</span></div><div><strong>02</strong><span>Keep learning</span></div><div><strong>03</strong><span>Improve every iteration</span></div></div>
+    </section>
+
+    <section class="section-wrap skills-section" id="skills">
+      <div class="section-heading reveal"><span class="section-index">02 / TOOLKIT</span><h2>Tools I work with<span class="accent">.</span></h2><p class="section-description">A growing toolkit for building, learning, and shipping useful projects.</p></div>
+      <div class="skills-grid reveal">
+        <article class="skill-card"><span class="skill-number mono">01</span><div class="skill-icon">⌘</div><h3>Languages</h3><div class="tags"><span>Python</span><span>JavaScript</span><span>SQL</span><span>HTML</span><span>CSS</span></div></article>
+        <article class="skill-card"><span class="skill-number mono">02</span><div class="skill-icon">⌁</div><h3>AI & Data</h3><div class="tags"><span>Machine Learning</span><span>RAG fundamentals</span><span>Embeddings</span><span>Vector Search</span></div></article>
+        <article class="skill-card"><span class="skill-number mono">03</span><div class="skill-icon">▧</div><h3>Frameworks & Data</h3><div class="tags"><span>Streamlit</span><span>FastAPI · learning</span><span>MongoDB</span><span>ChromaDB · learning</span></div></article>
+        <article class="skill-card"><span class="skill-number mono">04</span><div class="skill-icon">↗</div><h3>Tools & Cloud</h3><div class="tags"><span>Git / GitHub</span><span>VS Code</span><span>AWS fundamentals</span><span>Flutter</span></div></article>
+      </div>
+    </section>
+
+    <section class="section-wrap projects-section" id="projects">
+      <div class="section-heading projects-heading reveal"><div><span class="section-index">03 / SELECTED WORK</span><h2>Projects with a purpose<span class="accent">.</span></h2></div><span class="mono project-count">01 — 04</span></div>
+      <article class="project-card featured reveal">
+        <div class="project-art art-predictor"><div class="art-top"><span class="mono">ML / 001</span><span>↗</span></div><div class="chart-bars"><i style="--h:28%"></i><i style="--h:48%"></i><i style="--h:38%"></i><i style="--h:67%"></i><i style="--h:55%"></i><i style="--h:82%"></i><i style="--h:72%"></i><i style="--h:95%"></i></div><div class="art-caption mono">PREDICTION / INSIGHTS</div></div>
+        <div class="project-info"><div class="project-label"><span class="project-dot"></span> MACHINE LEARNING</div><h3>Student Performance Predictor</h3><p>A machine-learning project exploring how student data can be used to predict academic performance. Built with Python and presented through a Streamlit app.</p><div class="tags"><span>Python</span><span>Machine Learning</span><span>Streamlit</span></div><div class="project-links"><a href="https://github.com/Talhak7/Student-Performance-Predictor" target="_blank" rel="noreferrer">View source <span>↗</span></a><a href="https://student-performance-predictor.streamlit.app/" target="_blank" rel="noreferrer">Live demo <span>↗</span></a></div></div>
+      </article>
+      <article class="project-card reveal">
+        <div class="project-art art-food"><div class="food-orb orb-a"></div><div class="food-orb orb-b"></div><div class="food-orb orb-c"></div><div class="art-top"><span class="mono">AI / 002</span><span>↗</span></div><div class="food-label mono">IMAGE → INSIGHT</div></div>
+        <div class="project-info"><div class="project-label"><span class="project-dot"></span> COMPUTER VISION / AI</div><h3>Image-Based Food Calorie Estimator</h3><p>A project concept using food images to estimate calorie information, with a Flutter interface and Python backend.</p><div class="tags"><span>Flutter</span><span>Python</span><span>Computer Vision</span></div><div class="project-links"><a href="#contact">Ask me about it <span>↗</span></a></div></div>
+      </article>
+      <article class="project-card reveal">
+        <div class="project-art art-chatbot">
+          <div class="art-top"><span class="mono">AI / 004</span><span>↗</span></div>
+          <div class="project-terminal-live">
+            <div class="project-terminal-heading">
+              <span>talha@portfolio: ~/assistant</span>
+              <span class="preview-status" id="preview-status">READY</span>
+            </div>
+            <div class="project-terminal-output" id="preview-output" aria-live="polite">
+              <div class="preview-line">
+                <span class="preview-prompt">assistant@ai:~$</span>
+                <span>Hi! Ask me anything about Talha.</span>
+              </div>
+            </div>
+            <form id="preview-chat-form" class="project-terminal-form">
+              <label for="preview-chat-input">visitor@web:~$</label>
+              <input id="preview-chat-input" name="preview-message" type="text"
+                placeholder="Type your question..." autocomplete="off" maxlength="1000" required />
+              <button type="submit" id="preview-chat-send" aria-label="Send message">↵</button>
+            </form>
+          </div>
+          <div class="art-caption mono">ASK · EXPLORE · CONNECT</div>
+        </div>
+        <div class="project-info">
+          <div class="project-label"><span class="project-dot live-dot"></span> AI / BACKEND DEVELOPMENT</div>
+          <h3>Terminal AI Portfolio Assistant</h3>
+          <p>A terminal-inspired chatbot that lets visitors ask natural-language questions about my skills, education, projects, and experience. Powered by a Python API backend and an LLM, with the API key kept server-side.</p>
+          <div class="tags"><span>HTML/CSS/JS</span><span>Python</span><span>FastAPI</span><span>OpenAI API</span></div>
+          <div class="project-links"><a href="chatbot.html">Launch terminal <span>↗</span></a><a href="#contact">Contact me <span>↗</span></a></div>
+        </div>
+      </article>
+      <article class="project-card reveal">
+        <div class="project-art art-rag"><div class="rag-node node-one">DOCS</div><div class="rag-node node-two">VECTOR DB</div><div class="rag-node node-three">LLM</div><div class="rag-line line-one"></div><div class="rag-line line-two"></div><div class="rag-line line-three"></div><div class="art-top"><span class="mono">GEN AI / 003</span><span>↗</span></div><div class="rag-bottom mono">RETRIEVE · AUGMENT · GENERATE</div></div>
+        <div class="project-info"><div class="project-label"><span class="project-dot live-dot"></span> IN DEVELOPMENT</div><h3>AI Document Assistant (RAG)</h3><p>A retrieval-augmented generation pipeline designed to answer questions from documents by retrieving relevant context from a vector database.</p><div class="tags"><span>Python</span><span>ChromaDB</span><span>Embeddings</span><span>LLM</span></div><div class="project-links"><a href="#contact">Follow the build <span>↗</span></a></div></div>
+      </article>
+    </section>
+
+    <section class="section-wrap services-section" id="services">
+      <div class="section-heading reveal">
+        <span class="section-index">04 / SERVICES</span>
+        <h2>How I can help you<span class="accent">.</span></h2>
+        <p class="section-description">
+          Practical digital solutions for businesses, teams and organizations.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <span class="service-number mono">01</span>
+          <div class="service-icon">⌘</div>
+          <h3>Website Development</h3>
+          <p>
+            Responsive, modern websites designed to showcase your business,
+            organization, services or personal brand.
+          </p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>WordPress</span>
+          </div>
+          <a class="text-link" href="#contact">
+            Discuss a website <span>↗</span>
+          </a>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-number mono">02</span>
+          <div class="service-icon">✳</div>
+          <h3>AI Chatbots &amp; Assistants</h3>
+          <p>
+            AI-powered assistants that answer questions, help visitors find
+            information and work with business knowledge or documents.
+          </p>
+          <div class="tags">
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>LLM APIs</span>
+            <span>RAG</span>
+          </div>
+          <a class="text-link" href="#contact">
+            Discuss an AI solution <span>↗</span>
+          </a>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-number mono">03</span>
+          <div class="service-icon">▥</div>
+          <h3>AI &amp; Data Solutions</h3>
+          <p>
+            Data-driven applications, interactive dashboards, data analysis
+            and machine-learning prototypes that turn information into insights.
+          </p>
+          <div class="tags">
+            <span>Python</span>
+            <span>Machine Learning</span>
+            <span>Streamlit</span>
+            <span>Data Analysis</span>
+          </div>
+          <a class="text-link" href="#contact">
+            Discuss a data project <span>↗</span>
+          </a>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-number mono">04</span>
+          <div class="service-icon">◎</div>
+          <h3>Market Research &amp; Survey Development</h3>
+          <p>
+            Online survey programming and testing for market research projects,
+            including survey flow, question logic and quality checks using
+            Decipher, where applicable.
+          </p>
+          <div class="tags">
+            <span>Decipher</span>
+            <span>Survey Programming</span>
+            <span>Survey Testing</span>
+            <span>Research</span>
+          </div>
+          <a class="text-link" href="#contact">
+            Discuss a survey project <span>↗</span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap journey-section" id="experience">
+      <div class="section-heading reveal"><span class="section-index">05 / THE JOURNEY</span><h2>Learning by doing<span class="accent">.</span></h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-date mono">DIPLOMA</div><div class="timeline-marker"></div><div><h3>Diploma in Computer Engineering</h3><p>Government Polytechnic Mumbai</p><span class="timeline-note">Developed a foundation in computing, programming, and engineering fundamentals.</span></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date mono">BACHELOR'S</div><div class="timeline-marker"></div><div><h3>B.E. in Computer Engineering</h3><p>Rizvi College of Engineering · Mumbai</p><span class="timeline-note">Continuing to build skills in software development, data, and AI.</span></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date mono">CURRENT ROLE</div><div class="timeline-marker"></div><div><h3>Manager</h3><p><a href="https://connectummah.org" target="_blank" rel="noreferrer">Connect Ummah Foundation ↗</a></p><span class="timeline-note">Managing initiatives and supporting the organization's work. Add specific responsibilities and achievements that reflect your role.</span></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date mono">ONGOING</div><div class="timeline-marker"></div><div><h3>Building technical projects</h3><p>Python · AI/ML · RAG · Backend development</p><span class="timeline-note">Turning learning into practical, demonstrable projects.</span></div></article>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact">
+      <div class="contact-card reveal"><div class="contact-orb"></div><span class="section-index">06 / CONTACT</span><h2>Let's build something<br><span class="accent">meaningful.</span></h2><p>Have an opportunity, idea, or project you'd like to discuss? I'd be happy to connect.</p><div class="contact-actions"><a class="button button-primary" href="mailto:talhakhan7746@.com">Email me <span>↗</span></a><a class="button button-ghost" href="https://github.com/Talhak7" target="_blank" rel="noreferrer">GitHub <span>↗</span></a><a class="button button-ghost" href="https://www.linkedin.com/in/talha-khan-72274a246/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a></div><div class="contact-bottom mono"><span>OPEN TO LEARNING & COLLABORATION</span><span>MUMBAI, IN · IST</span></div></div>
+    </section>
+  </main>
+  <footer class="site-footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">tk.</span><span>talha khan</span></a><span class="footer-note">Designed with intent. Built with curiosity.</span><a class="back-top mono" href="#home">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>

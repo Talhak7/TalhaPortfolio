@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0d10">
+  <meta name="description" content="Ask Talha's terminal-style AI portfolio assistant about projects, skills, education, and experience.">
+  <title>Terminal AI Assistant — Talha Khan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="chat-page">
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html#home" aria-label="Talha Khan home"><span class="brand-mark">tk.</span><span>talha khan</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html#about">About</a><a href="index.html#skills">Skills</a><a href="index.html#projects">Projects</a><a href="index.html#services">Services</a><a href="index.html#experience">Journey</a>
+      <a class="nav-contact" href="index.html#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main class="chat-main">
+    <div class="chat-intro">
+      <span class="section-index">INTERACTIVE PROJECT / 004</span>
+      <h1>Talk to my <span class="accent">terminal.</span></h1>
+      <p>Ask questions about my projects, technical skills, education, and experience. The assistant uses an AI model through a Python backend. It is designed to stay focused on my portfolio and will say when it doesn't know something.</p>
+    </div>
+
+    <section class="chat-window" aria-label="Terminal AI chat">
+      <div class="chat-window-bar">
+        <div class="chat-window-title"><span class="window-dots"><i></i><i></i><i></i></span><span>talha@portfolio: ~/assistant</span></div>
+        <span class="chat-status" id="connection-status"><span class="chat-live"></span> READY</span>
+      </div>
+      <div class="chat-transcript" id="chat-transcript" role="log" aria-live="polite" aria-relevant="additions text">
+        <div class="chat-line system">
+          <span class="chat-speaker">SYSTEM</span>
+          <span class="chat-message">Terminal session initialized.
+Type help to see example prompts, or ask a question below.</span>
+        </div>
+        <div class="chat-line assistant">
+          <span class="chat-speaker">assistant@ai:~$</span>
+          <span class="chat-message">Hi! I'm Talha's portfolio assistant. What would you like to know?</span>
+        </div>
+      </div>
+      <div class="chat-suggestions" aria-label="Suggested questions">
+        <button class="chat-suggestion" type="button" data-prompt="What projects has Talha built?">projects</button>
+        <button class="chat-suggestion" type="button" data-prompt="What services does Talha offer?">services</button>
+        <button class="chat-suggestion" type="button" data-prompt="Summarize Talha's technical skills.">skills</button>
+        <button class="chat-suggestion" type="button" data-prompt="Tell me about Talha's education and current role.">education &amp; role</button>
+        <button class="chat-suggestion" type="button" data-prompt="How can I contact Talha?">contact</button>
+      </div>
+      <form class="chat-form" id="chat-form">
+        <label class="chat-prompt" for="chat-input">visitor@web:~$</label>
+        <input class="chat-input" id="chat-input" name="message" type="text" maxlength="2000" placeholder="Ask something about Talha..." autocomplete="off" required>
+        <button class="chat-send" id="chat-send" type="submit">SEND ↵</button>
+      </form>
+      <div class="chat-footnote"><span>AI-GENERATED · VERIFY IMPORTANT DETAILS</span><span>PRESS ENTER TO SEND</span></div>
+    </section>
+  </main>
+
+  <footer class="chat-footer">
+    <div class="site-footer">
+      <a class="brand" href="index.html#home"><span class="brand-mark">tk.</span><span>talha khan</span></a>
+      <span class="footer-note">Designed with intent. Built with curiosity.</span>
+      <a class="back-top mono" href="index.html#projects">BACK TO PROJECTS ↗</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
