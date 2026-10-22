@@ -3,7 +3,7 @@
  * After deploying the FastAPI backend, replace it with your backend URL.
  * Never put the LLM API key in this file.
  */
-const API_BASE_URL = "http://127.0.0.1:8000";
+const API_BASE_URL = "https://talha-portfolio-chatbot-api.onrender.com";
 
 const transcript = document.getElementById("chat-transcript");
 const form = document.getElementById("chat-form");

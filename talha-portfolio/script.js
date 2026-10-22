@@ -41,7 +41,7 @@ if ("IntersectionObserver" in window) {
   if (!form || !input || !output || !send || !status) return;
 
   // For local development. Change only after deploying the backend.
-  const API_BASE_URL = "http://127.0.0.1:8000";
+  const API_BASE_URL = "https://talha-portfolio-chatbot-api.onrender.com";
   const history = [];
   let busy = false;
 
